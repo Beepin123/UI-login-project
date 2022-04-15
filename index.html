@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title> Login Form | Codeme</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="center">
-      <h1>Login</h1>
-      <form method="post">
-        <div class="txt_field">
-          <input type="text" required>
-          <span></span>
-          <label>Username</label>
-        </div>
-        <div class="txt_field">
-          <input type="password" required>
-          <span></span>
-          <label>Password</label>
-        </div>
-        <div class="pass">Forgot Password?</div>
-        <input type="submit" value="Login">
-        <div class="signup_link">
-          Not a member? <a href="#">Signup</a>
-        </div>
-      </form>
-    </div>
+<html lang="en">
 
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Flexbox Login </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <H1 class="header">SIGN IN</H1>
+            <div>
+                <input class="input" type="text" name="username" id="username" placeholder="Username">
+            </div>
+            <div>
+                <input class="input" type="password" name="password" id="password" placeholder="Password">
+            </div>
+            <button class="button">SIGN IN</button>
+        </div>
+    </div>
+</body>
+
 </html>
